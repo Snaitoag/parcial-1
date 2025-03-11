@@ -1,0 +1,204 @@
+.titulo-main{
+    background-color: gray;
+    text-align: center;
+}
+
+.menu-main{
+    border: 2px solid black; /* Borde negro */
+    padding: 10px; /* Opcional: Añade espacio interno */
+}
+
+/* Personalizar los indicadores para que sean círculos */
+.carousel-indicators button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%; /* Hace los indicadores circulares */
+    background-color: gray; /* Color de los indicadores */
+  }
+
+  .carousel-indicators .active {
+    background-color: black; /* Color del indicador activo */
+  }
+
+  /* Ajustar tamaño de las imágenes */
+  .carousel-item img {
+    height: 300px; /* Ajusta la altura */
+    object-fit: cover; /* Evita distorsiones y mantiene proporción */
+  }
+
+  /* Ajustar tamaño del carrusel */
+  #carouselExampleIndicators {
+    max-width: 80%; /* Ajusta el ancho del carrusel */
+    margin: auto; /* Centra el carrusel */
+  }
+
+  .seccion-p{
+    margin: 0 10%; /* Aumenta la separación a los lados */
+    text-align: justify; /* Justifica el texto */
+  }
+
+  body {
+    transition: background-color 0.5s, color 0.5s;
+    background-color: #f8f9fa; /* Color claro inicial */
+}
+
+.seccion-p {
+    margin: 20px;
+    text-align: justify;
+}
+
+.card-header {
+    background-color: #d6d8db;
+    font-weight: bold;
+    text-align: center;
+}
+.btn-comprar {
+    display: block;
+    margin: 10px auto;
+}
+
+.accordion-button {
+    background-color: #d6e4fc;
+    font-weight: bold;
+}
+.team-section {
+    margin-top: 40px;
+    text-align: center;
+}
+.team-member {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.social-icons a {
+    margin: 0 5px;
+    font-size: 20px;
+    color: #007bff;
+}
+.social-icons a:hover {
+    color: #0056b3;
+}
+
+.team-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.team-member {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.team-member:nth-child(odd) {
+    flex-direction: row-reverse; /* Intercala izquierda-derecha */
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.login-container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.form-group label {
+    flex: 1;
+    text-align: left;
+    margin-right: 10px;
+}
+.form-group input {
+    flex: 2;
+}
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.btn-custom {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+}
+.btn-custom:hover {
+    background-color: #5a6268;
+}
+
+.register-container {
+    width: 60%;
+    margin: 50px auto;
+    padding: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.form-group label {
+    flex: 1;
+    text-align: left;
+    margin-right: 10px;
+}
+.form-group input, .form-group select {
+    flex: 2;
+}
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.btn-custom {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+}
+.btn-custom:hover {
+    background-color: #5a6268;
+}
+
+
+  
